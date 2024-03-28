@@ -1,0 +1,5 @@
+package Att4Enum;
+
+public enum Cargo {
+	DIRETOR, ANALISTA, ASSESSOR, TECNICO, ADMINISTRATIVO;
+}
