@@ -87,6 +87,7 @@ public class Program {
 			} while (opcao != 5);
 			System.out.println("\n\n\nPROGRAMA FINALIZADO!");
 			acao.fecharConexaoPst();
+			console.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
